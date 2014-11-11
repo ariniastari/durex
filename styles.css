@@ -5459,6 +5459,21 @@ button.close {
     width: 143px;
     height: 38px;
     margin-bottom: 20px; }
+  .sprites.fb-share {
+    background-position: -13px -198px;
+    width: 122px;
+    height: 46px;
+    margin: 0 auto; }
+  .sprites.twitter-share {
+    background-position: -146px -226px;
+    width: 133px;
+    height: 46px;
+    margin: 0 auto; }
+  .sprites.google-share {
+    background-position: -162px -175px;
+    width: 118px;
+    height: 46px;
+    margin: 0 auto; }
   .sprites.badges {
     position: absolute; }
     .sprites.badges.youtube {
@@ -5559,8 +5574,11 @@ ul.social-media {
           border: none;
           padding-left: 0px; }
 
-.top-section {
+.top-section.home {
   background: url("assets/images/header.jpg");
+  background-size: 100% 100%; }
+.top-section.visi {
+  background: url("assets/images/bg-visi.jpg");
   background-size: 100% 100%; }
 
 .header {
@@ -5611,6 +5629,11 @@ p.bigger {
 
 .white {
   background: #fff;
+  padding-bottom: 1px;
+  padding-top: 1px; }
+
+.blue-sky {
+  background: #cae3eb;
   padding-bottom: 1px;
   padding-top: 1px; }
 
@@ -5698,6 +5721,30 @@ p.bigger {
   .line.white-line {
     background-color: #ffffff; }
 
+#visi .line.green {
+  margin: 20px 0; }
+#visi .content .container-block {
+  padding-bottom: 25px; }
+
+.visi .tagline {
+  padding-top: 70px;
+  padding-bottom: 96px; }
+  .visi .tagline .line.pink {
+    margin-top: 10px;
+    margin-left: 0;
+    width: 9%; }
+
+ul.share {
+  list-style: none;
+  padding: 0;
+  margin-top: 30px; }
+  ul.share li {
+    margin-top: 10px;
+    margin-bottom: 10px; }
+
+.youtube-height {
+  height: 301px; }
+
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 /* Small devices (tablets, 768px and up) */
@@ -5741,6 +5788,9 @@ p.bigger {
     margin-top: -90px; } }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  .youtube-height {
+    height: 343px; }
+
   .bg-knowledge h5 {
     padding-top: 20px; }
   .bg-knowledge p {
@@ -5774,6 +5824,9 @@ p.bigger {
       font-size: 17px; } }
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+  .youtube-height {
+    height: 402px; }
+
   .bg-purple {
     padding-bottom: 60px;
     padding-top: 50px; }

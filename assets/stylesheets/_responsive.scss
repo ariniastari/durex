@@ -51,6 +51,9 @@
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
+	.youtube-height {
+		height: 343px;
+	}
 	.bg-knowledge {
 		h5 {
 			padding-top: 20px;
@@ -95,7 +98,10 @@
 }
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {  
+@media (min-width: 1200px) {
+	.youtube-height {
+		height: 402px;
+	}  
 	.bg-purple {
 		padding-bottom: 60px;
 		padding-top: 50px;

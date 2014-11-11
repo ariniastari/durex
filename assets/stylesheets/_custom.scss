@@ -84,8 +84,16 @@ ul.social-media {
 }
 
 .top-section {
-	background: url("assets/images/header.jpg");
-	background-size: 100% 100%;
+
+	&.home {
+		background: url("assets/images/header.jpg");
+		background-size: 100% 100%;
+	}
+
+	&.visi {
+		background: url("assets/images/bg-visi.jpg");
+		background-size: 100% 100%;
+	}
 }
 
 .header {
@@ -146,6 +154,12 @@ p.bigger {
 
 .white {
 	background: #fff;
+	padding-bottom: 1px;
+	padding-top: 1px;
+}
+
+.blue-sky {
+	background: #cae3eb;
 	padding-bottom: 1px;
 	padding-top: 1px;
 }
@@ -259,5 +273,51 @@ p.bigger {
 	&.white-line {
 		background-color: #ffffff;
 	}
+}
+
+
+// VISI
+
+#visi {
+	.line.green {
+		margin: 20px 0;
+	}
+
+	.content {
+		.container-block {
+			padding-bottom: 25px;
+		}
+	}
+}
+
+.visi {
+	.tagline {
+		padding-top: 70px;
+		padding-bottom: 96px;
+		.line {
+			&.pink {
+				margin-top: 10px;
+				margin-left: 0;
+				width: 9%;
+			}
+		}
+	}
+}
+
+ul {
+	&.share {
+		list-style: none;
+		padding: 0;
+		margin-top: 30px;
+
+		li {
+			margin-top: 10px;
+			margin-bottom: 10px;
+		}
+	}
+}
+
+.youtube-height {
+	height: 301px;
 }
 

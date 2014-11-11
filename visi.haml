@@ -13,9 +13,9 @@
     /[if lt IE 9]
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-  %body
+  %body#visi
     .container-fluid
-      .top-section.home
+      .top-section.visi
         .container
           .header
             .row
@@ -50,13 +50,13 @@
                   / Collect the nav links, forms, and other content for toggling
                   #bs-example-navbar-collapse-1.collapse.navbar-collapse
                     %ul.nav.navbar-nav
-                      %li.active
+                      %li
                         %a{:href => "#"} Home
                       %li
                         %a{:href => "#"} Menurut Kamu?
                       %li
                         %a{:href => "#"} Pengetahuan
-                      %li
+                      %li.active
                         %a{:href => "#"} Visi
                     %ul.nav.navbar-nav.navbar-right
                       %li
@@ -67,85 +67,48 @@
             .row
               .col-xs-12
                 .tagline
-                  %h1 Dare to speak up
-                  %h1 Dare to understand
-                  %h1 Dare to take action
+                  %h1 Visi
+                  .line.pink
             .row
-              .col-md-8
+              .col-md-7
                 .row.someone-like-me
-                  .col-md-8
-                    %h4 #SomeoneLikeMe adalah sebagai media untuk menyampaikan isi hatimu tanpa rasa takut.
-                  .col-md-2.col-md-offset-2
-                    .sprites.more.center
+                  .col-md-12
+                    %h4 Conversation has the power to inspire happier, healthier sex lives. Join a generation of people not just talking about sex, but standing up for your right to do so. Let's get talking.
       .middle-section
         .container
           .row
-            .col-sm-4
-              .row
-                .col-xs-12
-                  %img.youtube{src: "assets/images/thumb-youtube.jpg", "data-video" => "http://www.youtube.com/embed/2y8APzvLFH4?autoplay=1"}
-                  .sprites.badges.youtube
-                .col-xs-12
-                  .white.container-block
-                    %h3 Social Stream
-                    .line.green
-                    .twitter-feed
-                      %p.italic Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu sapien sagittis, tempus neque eget, commodo eros
-                      %p.italic-bold @Jane Doe
-                      .sprites.badges.twitter
-                .col-xs-6.right
-                  %img.youtube{src: "assets/images/ig.jpg"}
-                  .sprites.badges.instagram
-                .col-xs-6.left
-                  %img.youtube{src: "assets/images/fb.jpg"}
-                  .sprites.badges.facebook
-                .col-xs-12
-                  .white.container-block
-                    .twitter-feed
-                      %p.italic Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu sapien sagittis, tempus neque eget, commodo eros
-                      %p.italic-bold @Jane Doe
-                      .sprites.badges.twitter.second
-                .col-xs-6.right
-                  %img.youtube{src: "assets/images/ig.jpg"}
-                  .sprites.badges.instagram
-                .col-xs-6.left
-                  %img.youtube{src: "assets/images/fb.jpg"}
-                  .sprites.badges.facebook
             .col-sm-8
-              .row
-                .col-sm-6.right
-                  .white.container-block.height-first
-                    %h5 Blog
-                    %h3 Ketika Bertemu Dia
-                    .line.green
-                    %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu sapien sagittis, tempus neque eget, commodo eros
-                .col-sm-6.left.topper.height
-                  %div.text-center{style: "background: url(assets/images/bg-ayo.jpg); background-size: 100% 100%; height: 333px;"}
-                    %h1{style: "padding-top: 50%;"} Ayo Ikutan
-                    .line.pink
-                  .tosca.container-block.text-center
-                    %p.bigger Be part of something awesome
-                .col-sm-12
-                  .bg-purple.container-block.text-center
-                    %h3.white-text Someone like me
-                    .line.pink
-                    %p We're partnering with the MTV EMAs to reach out to you all to help get the conversation going. We want to inspire a generation to ask questions freely and to add their voices to the movement. We want to create a world with better, safer sex. Let's get people talking
-                .col-sm-6.right
-                  .bg-tongue.container-block
-                    %h3 Get Involved
-                    %p 
-                      It's easy to get involved with Someone Like Me and there's loads of ways to do it. Be part of the conversation on Twitter, meet the community on Facebook, watch videos from  
-                      %br
-                      around the world from 
-                      %br
-                      the community
-                    .sprites.more-smaller
-                .col-sm-6.left
-                  .bg-knowledge.container-block
-                    %h5 knowledge
-                    %h3 HIV - What you need to know
-                    .line.white-line
-                    %p HIV (the human immunodeficiency virus of course) is one of the few sexually transmitted infections (STIs) that can be fatal. 
+              %iframe.youtube-height{:allowfullscreen => "", :frameborder => "0", :src => "http://www.youtube.com/embed/2y8APzvLFH4", :width => "100%"}
+            .col-sm-4
+              .bg-purple.container-block.text-center.spread-height
+                %h3.white-text Spread the word
+                .line.pink
+                %ul.share
+                  %li
+                    %a{href: "#"}
+                      .sprites.fb-share
+                  %li
+                    %a{href: "#"}
+                      .sprites.twitter-share
+                  %li
+                    %a{href: "#"}
+                      .sprites.google-share
+          .row.content
+            .col-sm-4
+              .white.container-block.first-height
+                %h3 Sex education, without the boring bits
+                .line.green
+                %p Everything you see here has been produced by someone like you. Together, we are setting a new global agenda, showing the world that it's easy to join a conversation, and that it's significant to start one. We are undermining the dangerous myths and taboos around sex and proving that learning about sex shouldn't stop when you leave school.
+            .col-sm-4
+              .blue-sky.container-block.second-height
+                %h3 Honest, inspiring, truthful, and fun
+                .line.green
+                %p Wherever you are, there are conversations that can help you improve your sex life in every sense. From understanding the implications of not wearing a condom to finding new ways of having fun in the bedroom, talking about sex can change lives for the better. We will be happy when nobody is blushing, nobody is holding their tongue, nobody is scared to ask a question and nobody feels embarrassed to talk about sex. Wanting great sex is natural; it's not something to hide. So let's get talking and have some fun doing it.
+            .col-sm-4
+              .white.container-block.third-height
+                %h3 Cause a scene. Inspire action
+                .line.green
+                %p Action begins with words, and conversation has the power to break down boundaries and build up understanding. By challenging myths and stigma surrounding sex we can inspire action and change across the globe. That's why we're recruiting a global community of young people looking to share and learn. We aren't simply promoting the discussion of sex; we're unlocking the potential of those conversations to change, enhance and even save lives.
       .footer-section
         .container
           .row

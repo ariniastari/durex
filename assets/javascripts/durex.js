@@ -7,6 +7,14 @@ $('.height-first').css({
     'height': $('.height').height() - 90
 });
 
+$('.first-height').css({
+    'height': $('.second-height').height() + 26
+});
+
+$('.third-height').css({
+    'height': $('.second-height').height() + 26
+});
+
 if ($(window).width() < 960) {
 }
 else {
