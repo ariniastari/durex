@@ -45,7 +45,7 @@ ul.social-media {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	font-family: "proxima_nova_rgbold";
-	font-size: 14px;
+	font-size: 13px;
 	color: #ffffff;
 
 	.copyright {
@@ -81,11 +81,6 @@ ul.social-media {
 			}
 		}
 	}
-}
-
-.container-fluid {
-	padding-left: 0;
-	padding-right: 0;
 }
 
 .top-section {
@@ -237,11 +232,11 @@ p.bigger {
 		padding-left: 0px;
 		padding-right: 0px;
 	}
-	.col-sm-6.right {
+	.col-xs-6.right {
 		padding-right: 0px;
 	}
 
-	.col-sm-6.left {
+	.col-xs-6.left {
 		padding-left: 0px;
 	}
 

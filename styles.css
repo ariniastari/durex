@@ -5457,7 +5457,8 @@ button.close {
   .sprites.partners {
     background-position: -133px -126px;
     width: 143px;
-    height: 38px; }
+    height: 38px;
+    margin-bottom: 20px; }
   .sprites.badges {
     position: absolute; }
     .sprites.badges.youtube {
@@ -5533,7 +5534,7 @@ ul.social-media {
   padding-top: 10px;
   padding-bottom: 10px;
   font-family: "proxima_nova_rgbold";
-  font-size: 14px;
+  font-size: 13px;
   color: #ffffff; }
   .bottom-section .copyright {
     font-family: "proxima_nova_rgregular";
@@ -5557,10 +5558,6 @@ ul.social-media {
         .bottom-section ul li:first-child a {
           border: none;
           padding-left: 0px; }
-
-.container-fluid {
-  padding-left: 0;
-  padding-right: 0; }
 
 .top-section {
   background: url("assets/images/header.jpg");
@@ -5682,9 +5679,9 @@ p.bigger {
 .middle-section .col-sm-4, .middle-section .col-sm-8 {
   padding-left: 0px;
   padding-right: 0px; }
-.middle-section .col-sm-6.right {
+.middle-section .col-xs-6.right {
   padding-right: 0px; }
-.middle-section .col-sm-6.left {
+.middle-section .col-xs-6.left {
   padding-left: 0px; }
 .middle-section img {
   width: 100%; }
@@ -5705,6 +5702,10 @@ p.bigger {
 /* No media query since this is the default in Bootstrap */
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  .container-fluid {
+    padding-left: 0;
+    padding-right: 0; }
+
   .footer-section {
     margin-top: -40px;
     padding-top: 120px; }
@@ -5715,6 +5716,11 @@ p.bigger {
   .col-xs-12.menu {
     padding-right: 15px;
     padding-left: 15px; }
+
+  .middle-section .col-sm-6.right {
+    padding-right: 0px; }
+  .middle-section .col-sm-6.left {
+    padding-left: 0px; }
 
   .border-search {
     padding-bottom: 19px !important;

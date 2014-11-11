@@ -3,6 +3,10 @@
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {  
+	.container-fluid {
+		padding-left: 0;
+		padding-right: 0;
+	}
 	.footer-section {
 		margin-top: -40px;
 		padding-top: 120px;
@@ -14,6 +18,15 @@
 		&.menu {
 			padding-right: 15px;
 			padding-left: 15px;
+		}
+	}
+	.middle-section {
+		.col-sm-6.right {
+			padding-right: 0px;
+		}
+
+		.col-sm-6.left {
+			padding-left: 0px;
 		}
 	}
 	.border-search {
