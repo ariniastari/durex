@@ -1,0 +1,110 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {  
+	.footer-section {
+		margin-top: -40px;
+		padding-top: 120px;
+	}
+	.bg-tongue {
+		padding-bottom: 18px;
+	}
+	.col-xs-12 {
+		&.menu {
+			padding-right: 15px;
+			padding-left: 15px;
+		}
+	}
+	.border-search {
+		padding-bottom: 19px !important;
+		border-left: solid 1px #dde2e4;
+	}
+	h1 {
+		font-size: 70px;
+		margin-top: 10px;
+	}
+	h4 {
+		font-size: 21px;
+		line-height: 30px;
+	}
+	h3 {
+		font-size: 28px;
+	}
+	.topper {
+		margin-top: -90px;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+	.bg-knowledge {
+		h5 {
+			padding-top: 20px;
+		}
+		p {
+			margin-top: 20px;
+		}
+	}
+	p.bigger {
+		font-size: 25px;
+	}
+	h3 {
+		&.white-text {
+			color: white;
+			font-size: 38px;
+			margin-top: 0px;
+			padding-top: 20px;
+		}
+	}
+
+	.top-section {
+		height: 591px;
+	}
+	.bg-tongue {
+		padding-bottom: 49px;
+		padding-top: 20px;
+
+		p {
+			font-size: 15px;
+			line-height: 24px;
+		}
+	}
+	.bg-purple {
+		padding-bottom: 20px;
+		padding-top: 10px;
+		p {
+			margin-top: 20px;
+			margin-bottom: 20px;
+			font-size: 17px;
+		}
+	}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  
+	.bg-purple {
+		padding-bottom: 60px;
+		padding-top: 50px;
+		p {
+			margin-top: 20px;
+			margin-bottom: 20px;
+			font-size: 17px;
+		}
+	}
+	h3 {
+		&.white-text {
+			padding-bottom: 20px;
+		}
+	}
+	.bg-tongue {
+		h3 {
+			padding-bottom: 20px;
+			padding-top: 15px;
+		}
+
+		p {
+			line-height: 30px;
+		}
+	}
+}
