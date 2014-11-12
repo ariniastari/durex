@@ -5595,6 +5595,9 @@ ul.social-media {
 .top-section.inner {
   background: url("assets/images/bg-inner.jpg");
   background-size: 100% 100%; }
+.top-section.privacy {
+  background: url("assets/images/bg-privacy.jpg");
+  background-size: 100% 100%; }
 
 .header {
   padding-top: 20px; }
@@ -5821,6 +5824,24 @@ ul.file-under {
       font-family: "proxima_nova_rgbold";
       font-size: 15px; }
 
+#privacy .tagline {
+  padding-top: 50px; }
+  #privacy .tagline .line.pink {
+    margin: 0; }
+#privacy h3 {
+  text-align: center;
+  margin-top: 50px; }
+#privacy p {
+  line-height: 25px;
+  font-size: 15px;
+  margin-top: 15px; }
+#privacy .line.green {
+  margin: 0 auto;
+  width: 10%;
+  margin-bottom: 30px; }
+#privacy .content a {
+  color: #ed2d66; }
+
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 /* Small devices (tablets, 768px and up) */
@@ -5895,6 +5916,9 @@ ul.file-under {
 
   .top-section {
     height: 591px; }
+
+  #privacy .top-section {
+    height: 435px; }
 
   .bg-tongue {
     padding-bottom: 49px;
