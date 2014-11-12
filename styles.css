@@ -5804,6 +5804,9 @@ ul.share {
   padding-left: 0;
   padding-right: 0; }
 
+.related-post .container-block {
+  min-height: 200px; }
+
 ul.file-under {
   list-style: none;
   padding: 0;
