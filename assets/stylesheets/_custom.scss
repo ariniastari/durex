@@ -19,6 +19,17 @@ ul.social-media {
 	}
 }
 
+.breadcrumb {
+	a {
+		color: #fff;
+	}
+}
+
+.reset-padding {
+	padding-left: 0;
+	padding-right: 0;
+}
+
 .footer-section {
 	background: #033b76;
 	color: #ffffff;
@@ -94,6 +105,10 @@ ul.social-media {
 		background: url("assets/images/bg-visi.jpg");
 		background-size: 100% 100%;
 	}
+	&.inner {
+		background: url("assets/images/bg-inner.jpg");
+		background-size: 100% 100%;
+	}
 }
 
 .header {
@@ -122,6 +137,10 @@ h3 {
 		margin-top: 0px;
 		padding-top: 20px;
 		text-transform: uppercase;
+	}
+	&.tag {
+		font-size: 20px;
+		margin-top: 32px;
 	}
 }
 
@@ -319,5 +338,85 @@ ul {
 
 .youtube-height {
 	height: 301px;
+}
+
+
+// INNER
+
+.bg-tosca {
+	background: url("assets/images/bg-tosca.jpg");
+	background-size: 100% 100%;
+}
+#inner {
+	h1 {
+		margin-top: 0;
+	}
+	.col-md-8 {
+		padding-right: 0;
+		padding-left: 0;
+	}
+	h4 {
+		font-family: "proxima_novalight";
+		color: #787878;
+		font-size: 32px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		line-height: 37px;
+	}
+
+	.date {
+		font-family: "corsica_sxsemibold";
+		color: #ffffff;
+		text-transform: uppercase;
+		font-size: 15px;
+	}
+	.share {
+		margin-left: -17px;
+		margin-top: 60px;
+	}
+	.content {
+		overflow-y: scroll;
+		h4, p {
+			padding-left: 25px;
+			padding-right: 25px;
+		}
+
+		p {
+			font-size: 15px;
+			margin-top: 10px;
+		}
+	}
+
+	.someone-like-me {
+		.line.pink {
+			margin: 20px 0;
+			background-color: #f4759d;
+		}
+		h1 {
+			margin-top: 10px;
+		}
+	}
+
+	.col-xs-6 {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
+ul.file-under {
+	list-style: none;
+	padding: 0;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	li {
+		margin-top: 10px;
+		margin-bottom: 12px;
+		a {
+			color: #fff;
+			text-decoration: underline;
+			font-family: "proxima_nova_rgbold";
+			font-size: 15px;
+		}
+	}
 }
 

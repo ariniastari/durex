@@ -3799,18 +3799,17 @@ tbody.collapse.in {
 
 .breadcrumb {
   padding: 8px 15px;
-  margin-bottom: 20px;
   list-style: none;
-  background-color: #f5f5f5;
+  background-color: transparent;
   border-radius: 4px; }
   .breadcrumb > li {
     display: inline-block; }
     .breadcrumb > li + li:before {
-      content: "/ ";
+      content: "> ";
       padding: 0 5px;
-      color: #ccc; }
+      color: #fff; }
   .breadcrumb > .active {
-    color: #777777; }
+    color: #fff; }
 
 .pagination {
   display: inline-block;
@@ -5474,6 +5473,10 @@ button.close {
     width: 118px;
     height: 46px;
     margin: 0 auto; }
+  .sprites.home {
+    background-position: -105px -104px;
+    width: 18px;
+    height: 16px; }
   .sprites.badges {
     position: absolute; }
     .sprites.badges.youtube {
@@ -5490,6 +5493,8 @@ button.close {
       left: 2px; }
       .sprites.badges.twitter.second {
         top: 23px; }
+      .sprites.badges.twitter.right {
+        left: 96%; }
     .sprites.badges.instagram {
       background-position: -1px -76px;
       width: 33px;
@@ -5528,6 +5533,13 @@ ul.social-media {
   ul.social-media li {
     float: left;
     padding: 0 12px; }
+
+.breadcrumb a {
+  color: #fff; }
+
+.reset-padding {
+  padding-left: 0;
+  padding-right: 0; }
 
 .footer-section {
   background: #033b76;
@@ -5580,6 +5592,9 @@ ul.social-media {
 .top-section.visi {
   background: url("assets/images/bg-visi.jpg");
   background-size: 100% 100%; }
+.top-section.inner {
+  background: url("assets/images/bg-inner.jpg");
+  background-size: 100% 100%; }
 
 .header {
   padding-top: 20px; }
@@ -5603,6 +5618,9 @@ h3 {
     margin-top: 0px;
     padding-top: 20px;
     text-transform: uppercase; }
+  h3.tag {
+    font-size: 20px;
+    margin-top: 32px; }
 
 h4 {
   color: white; }
@@ -5745,10 +5763,71 @@ ul.share {
 .youtube-height {
   height: 301px; }
 
+.bg-tosca {
+  background: url("assets/images/bg-tosca.jpg");
+  background-size: 100% 100%; }
+
+#inner h1 {
+  margin-top: 0; }
+#inner .col-md-8 {
+  padding-right: 0;
+  padding-left: 0; }
+#inner h4 {
+  font-family: "proxima_novalight";
+  color: #787878;
+  font-size: 32px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  line-height: 37px; }
+#inner .date {
+  font-family: "corsica_sxsemibold";
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 15px; }
+#inner .share {
+  margin-left: -17px;
+  margin-top: 60px; }
+#inner .content {
+  overflow-y: scroll; }
+  #inner .content h4, #inner .content p {
+    padding-left: 25px;
+    padding-right: 25px; }
+  #inner .content p {
+    font-size: 15px;
+    margin-top: 10px; }
+#inner .someone-like-me .line.pink {
+  margin: 20px 0;
+  background-color: #f4759d; }
+#inner .someone-like-me h1 {
+  margin-top: 10px; }
+#inner .col-xs-6 {
+  padding-left: 0;
+  padding-right: 0; }
+
+ul.file-under {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  margin-bottom: 30px; }
+  ul.file-under li {
+    margin-top: 10px;
+    margin-bottom: 12px; }
+    ul.file-under li a {
+      color: #fff;
+      text-decoration: underline;
+      font-family: "proxima_nova_rgbold";
+      font-size: 15px; }
+
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  #inner .someone-like-me {
+    min-height: 242px; }
+  #inner .content p {
+    margin-top: 17px;
+    line-height: 24px; }
+
   .container-fluid {
     padding-left: 0;
     padding-right: 0; }
@@ -5788,6 +5867,12 @@ ul.share {
     margin-top: -90px; } }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  #inner .middle-section {
+    margin-top: -148px; }
+  #inner .content p {
+    margin-top: 20px;
+    line-height: 34px; }
+
   .youtube-height {
     height: 343px; }
 
@@ -5842,6 +5927,10 @@ ul.share {
     padding-bottom: 20px;
     padding-top: 15px; }
   .bg-tongue p {
+    line-height: 30px; }
+
+  #inner .content p {
+    margin-top: 30px;
     line-height: 30px; } }
 
 /*# sourceMappingURL=styles.css.map */

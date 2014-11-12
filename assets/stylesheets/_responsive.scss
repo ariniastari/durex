@@ -3,6 +3,19 @@
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {  
+	#inner {
+		.someone-like-me {
+			min-height: 242px;
+		}
+
+		.content {
+			p {
+				margin-top: 17px;
+				line-height: 24px;
+			}
+		}
+	}
+
 	.container-fluid {
 		padding-left: 0;
 		padding-right: 0;
@@ -51,6 +64,17 @@
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
+	#inner {
+		.middle-section {
+			margin-top: -148px;
+		}
+		.content {
+			p {
+				margin-top: 20px;
+				line-height: 34px;
+			}
+		}
+	}
 	.youtube-height {
 		height: 343px;
 	}
@@ -124,6 +148,14 @@
 
 		p {
 			line-height: 30px;
+		}
+	}
+	#inner {
+		.content {
+			p {
+				margin-top: 30px;
+				line-height: 30px;
+			}
 		}
 	}
 }

@@ -68,6 +68,11 @@
 		height: 46px;
 		margin: 0 auto;
 	}
+	&.home {
+		background-position: -105px -104px;
+		width: 18px;
+		height: 16px;
+	}
 	&.badges {
 		position: absolute;
 		&.youtube {
@@ -85,6 +90,9 @@
 			left: 2px; 
 			&.second {
 				top: 23px;
+			}
+			&.right {
+				left: 96%;
 			}
 		}
 		&.instagram {

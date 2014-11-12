@@ -22,3 +22,9 @@ else {
 	    'height': $('.bg-tongue').height() + 69
 	});
 }
+
+if ($(window).width() >= 768) {
+	$('.inner-height').css({
+    	'height': $('.set-height').height()
+	});
+}

@@ -78,3 +78,16 @@
     font-style: normal;
 
 }
+
+@font-face {
+    font-family: 'proxima_novalight';
+    src: url('lib/proxima_nova_light-webfont.eot');
+    src: url('lib/proxima_nova_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('lib/proxima_nova_light-webfont.woff2') format('woff2'),
+         url('lib/proxima_nova_light-webfont.woff') format('woff'),
+         url('lib/proxima_nova_light-webfont.ttf') format('truetype'),
+         url('lib/proxima_nova_light-webfont.svg#proxima_novalight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
