@@ -3,6 +3,18 @@
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {  
+
+	#pengetahuan {
+		.bg-knowledge-pink, .bg-knowledge-image, .bg-purple, .bg-green  {
+			padding-bottom: 0;
+			padding-top: 0;
+
+			h3 {
+				padding-top: 35px;
+				margin-top: 0;
+			}
+		}
+	}
 	#inner {
 		.someone-like-me {
 			min-height: 242px;

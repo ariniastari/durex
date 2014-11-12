@@ -1,0 +1,195 @@
+!!!
+%html{:lang => "en"}
+  %head
+    %meta{:charset => "utf-8"}/
+    %meta{:content => "IE=edge", "http-equiv" => "X-UA-Compatible"}/
+    %meta{:content => "width=device-width, initial-scale=1", :name => "viewport"}/
+    %title Durex
+    / Bootstrap
+    %link{:href => "styles.css", :rel => "stylesheet"}
+    %link{:href => "assets/fonts/font.css", :rel => "stylesheet"}/
+    / HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries
+    / WARNING: Respond.js doesn't work if you view the page via file://
+    /[if lt IE 9]
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  %body#pengetahuan
+    .container-fluid
+      .top-section.pengetahuan
+        .container
+          .header
+            .row
+              .col-xs-4
+                %a{href: "#"}
+                  %img{src: "assets/images/logo.png"}
+              .col-xs-8
+                .float-right
+                  %ul.social-media.hidden-xs
+                    %li
+                      %a{href: "#"}
+                        .sprites.fb-small
+                    %li
+                      %a{href: "#"}
+                        .sprites.twitter-small
+                    %li
+                      %a{href: "#"}
+                        .sprites.instagram-small
+                    %li
+                      %a{href: "#"}
+                        .sprites.youtube-small
+            .row
+              %nav.navbar.navbar-default{:role => "navigation"}
+                .container-fluid
+                  / Brand and toggle get grouped for better mobile display
+                  .navbar-header
+                    %button.navbar-toggle.collapsed{"data-target" => "#bs-example-navbar-collapse-1", "data-toggle" => "collapse", :type => "button"}
+                      %span.sr-only Toggle navigation
+                      %span.icon-bar
+                      %span.icon-bar
+                      %span.icon-bar
+                  / Collect the nav links, forms, and other content for toggling
+                  #bs-example-navbar-collapse-1.collapse.navbar-collapse
+                    %ul.nav.navbar-nav
+                      %li
+                        %a{:href => "#"} Home
+                      %li
+                        %a{:href => "#"} Menurut Kamu?
+                      %li.active
+                        %a{:href => "#"} Pengetahuan
+                      %li
+                        %a{:href => "#"} Visi
+                    %ul.nav.navbar-nav.navbar-right
+                      %li
+                        %a{:href => "#", class: "border-search"}
+                          .sprites.search
+                  / /.navbar-collapse
+                / /.container-fluid
+            .row
+              .col-xs-12
+                .tagline
+                  %h1 Pengetahuan
+                  .line.pink
+            .row
+              .col-sm-8
+                .row.someone-like-me
+                  .col-md-12
+                    %h4 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent enim leo, pharetra nec orci eu, lobortis tincidunt mi. Sed malesuada, est in interdum ornare, est justo sodales sapien, a dictum lorem odio vitae nulla
+      .middle-section
+        .container
+          .row
+            .col-sm-8.featured{style: "background: url(assets/images/knowledge-1.jpg); background-size: 100% 100%;"}
+              .container-block
+                %h3 blurred boundaries
+                .line.pink
+                %p Ut quis elit iaculis, iaculis quam sodales, blandit dui. Duis eu pulvinar lorem. Fusce nibh est, viverra faucibus nibh ut, congue mattis quam.  Morbi tempor vel odio at condimentum.
+            .col-sm-4.topper.bg-knowledge-image
+              .container-block
+                %h3 HIV - What you need to know
+                .line.white-line
+                %p HIV (the human immunodeficiency virus of course) is one of the few sexually transmitted infections (STIs) that can be fatal. 
+          .row
+            .col-sm-4.bg-knowledge-image.eqheight
+              .container-block
+                %h3 HIV - What you need to know
+                .line.white-line
+                %p HIV (the human immunodeficiency virus of course) is one of the few sexually transmitted infections (STIs) that can be fatal. 
+            .col-sm-8
+              .row
+                .col-sm-6.right
+                  .container-block.bg-knowledge-pink.eqheight
+                    %h3 Dare to bare
+                    .line.white-line
+                    %p Sed dolor ante, lacinia sed suscipit eu, sollicitudin sed turpis. Praesent bibendum, lacus sed pretium dapibus, mauris nulla vestibulum mauris, vitae consectetur nulla neque nec sapien. 
+                    .arrow-right.hidden-xs
+                .col-sm-6.left.eqheight.hidden-xs
+                  %img.eqheight{src: "assets/images/knowledge-2.jpg"}
+          .row
+            .col-sm-4
+              .row
+                .col-sm-12
+                  .container-block.bg-purple.eqheight
+                    %h3 Life after a break up
+                    .line.white-line
+                    %p Sed dolor ante, lacinia sed suscipit eu, sollicitudin sed turpis. Praesent bibendum, lacus sed pretium dapibus, mauris nulla vestibulum mauris, vitae consectetur nulla neque nec sapien. 
+                    .arrow-down.hidden-xs
+                .col-sm-12.hidden-xs
+                  %img.eqheight{src: "assets/images/knowledge-3.jpg"}
+            .col-sm-8
+              .row
+                .col-sm-6.right.hidden-xs
+                  %img.eqheight{src: "assets/images/knowledge-4.jpg"}
+                .col-sm-6.left
+                  .container-block.bg-green.eqheight
+                    %h3 The FYI on STIs
+                    .line.white-line
+                    %p Sed dolor ante, lacinia sed suscipit eu, sollicitudin sed turpis. Praesent bibendum, lacus sed pretium dapibus, mauris nulla vestibulum mauris, vitae consectetur nulla neque nec sapien.
+                    .arrow-left.hidden-xs
+              .row
+                .col-sm-6.right
+                  .container-block.bg-purple.image.eqheight
+                    %h3 The FYI on STIs
+                    .line.white-line
+                    %p Sed dolor ante, lacinia sed suscipit eu, sollicitudin sed turpis. Praesent bibendum, lacus sed pretium dapibus, mauris nulla vestibulum mauris, vitae consectetur nulla neque nec sapien.
+                .col-sm-6.left
+                  .container-block.bg-knowledge-pink.image.eqheight
+                    %h3 The FYI on STIs
+                    .line.white-line
+                    %p Sed dolor ante, lacinia sed suscipit eu, sollicitudin sed turpis. Praesent bibendum, lacus sed pretium dapibus, mauris nulla vestibulum mauris, vitae consectetur nulla neque nec sapien.
+      .footer-section
+        .container
+          .row
+            .col-sm-4
+              .sprites.logo-campaign.title
+              %p Someone Like Me is a global social movement created by Durex and the MTV Staying Alive Foundation, providing a stage for young people to talk about sex more openly
+            .col-sm-4
+              .title Partners
+              .sprites.partners
+            .col-sm-4
+              .title Follow
+              %ul.social-media
+                %li
+                  %a{href: "#"}
+                    .sprites.fb-small
+                %li
+                  %a{href: "#"}
+                    .sprites.twitter-small
+                %li
+                  %a{href: "#"}
+                    .sprites.instagram-small
+                %li
+                  %a{href: "#"}
+                    .sprites.youtube-small
+      .bottom-section
+        .container
+          .col-sm-6.left.col-xs-12
+            %ul
+              %li
+                %a{href: "#"} Terms and Conditions 
+              %li
+                %a{href: "#"} Privacy Policy 
+              %li
+                %a{href: "#"} Cookies
+          .col-sm-4.col-sm-offset-2.hidden-xs
+            .copyright Copyright 2014 All Rights Reserved
+    %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"}
+    %script{:src => "assets/javascripts/bootstrap.js"}
+    %script{:src => "assets/javascripts/durex.js"}
+
+:javascript
+
+  $( document ).ready(function() {
+    if ($(window).width() >= 768) {
+
+      $('.bg-knowledge-image').css({
+        'height': $('.featured').height() + 130
+      });
+
+      var heights = $(".eqheight").map(function() {
+        return $(this).height();
+      }).get();
+
+      var maxHeight = Math.max.apply(null, heights);
+      $(".eqheight").height(maxHeight);
+
+    }
+  });
