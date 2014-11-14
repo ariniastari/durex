@@ -1,5 +1,5 @@
 $('.youtube').click(function(){
-    video = '<iframe width="100%" height="333" src="'+ $(this).attr('data-video') +'"></iframe>';
+    video = '<iframe width="100%" height="323" allowfullscreen src="'+ $(this).attr('data-video') +'"></iframe>';
     $(this).replaceWith(video);
 });
 

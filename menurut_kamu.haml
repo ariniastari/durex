@@ -13,9 +13,9 @@
     /[if lt IE 9]
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-  %body
+  %body#menurut_kamu
     .container-fluid
-      .top-section.home
+      .top-section.menurut-kamu
         .container
           .header
             .row
@@ -50,11 +50,11 @@
                   / Collect the nav links, forms, and other content for toggling
                   #bs-example-navbar-collapse-1.collapse.navbar-collapse
                     %ul.nav.navbar-nav
-                      %li.active
+                      %li
                         %a{:href => "#"} Home
                       %li
                         %a{:href => "#"} Menurut Kamu?
-                      %li
+                      %li.active
                         %a{:href => "#"} Pengetahuan
                       %li
                         %a{:href => "#"} Visi
@@ -67,86 +67,71 @@
             .row
               .col-xs-12
                 .tagline
-                  %h1 Dare to speak up
-                  %h1 Dare to understand
-                  %h1 Dare to take action
+                  %h1 Menurut Kamu ?
+                  .line.pink
             .row
-              .col-md-8
+              .col-sm-8
                 .row.someone-like-me
-                  .col-md-8
-                    %h4 #SomeoneLikeMe adalah sebagai media untuk menyampaikan isi hatimu tanpa rasa takut.
-                  .col-md-2.col-md-offset-2
-                    .sprites.more.center
+                  .col-md-12
+                    %h4 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent enim leo, pharetra nec orci eu, lobortis tincidunt mi. Sed malesuada, est in interdum ornare, est justo sodales sapien, a dictum lorem odio vitae nulla
+            .row
+              .col-sm-8.filter
+                .container-filter
+                  %ul
+                    %li Filter Category:
+                    %li 
+                      %a{href:"#"} Blog
+                    %li 
+                      %a{href:"#"} Photos
+                    %li 
+                      %a{href:"#"} Videos
+                .clearfix
       .middle-section
         .container
           .row
             .col-sm-4
-              .row
-                .col-xs-12
-                  %img.youtube{src: "assets/images/thumb-youtube.jpg", "data-video" => "http://www.youtube.com/embed/2y8APzvLFH4?autoplay=1"}
-                  .sprites.badges.youtube
-                .col-xs-12
-                  .white.container-block
-                    %h3 Social Stream
-                    .line.green
-                    .twitter-feed
-                      %p.italic Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu sapien sagittis, tempus neque eget, commodo eros
-                      %p.italic-bold @Jane Doe
-                      .sprites.badges.twitter
-                .col-xs-6.right
-                  %img.youtube{src: "assets/images/ig.jpg"}
-                  .sprites.badges.instagram
-                .col-xs-6.left
-                  %img.youtube{src: "assets/images/fb.jpg"}
-                  .sprites.badges.facebook
-                .col-xs-12
-                  .white.container-block
-                    .twitter-feed
-                      %p.italic Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu sapien sagittis, tempus neque eget, commodo eros
-                      %p.italic-bold @Jane Doe
-                      .sprites.badges.twitter.second
-                .col-xs-6.right
-                  %img.youtube{src: "assets/images/ig.jpg"}
-                  .sprites.badges.instagram
-                .col-xs-6.left
-                  %img.youtube{src: "assets/images/fb.jpg"}
-                  .sprites.badges.facebook
-            .col-sm-8
-              .row
-                .col-sm-6.right
-                  .white.container-block.height-first
-                    %h5 Blog
-                    %h3 Ketika Bertemu Dia
-                    .line.green
-                    %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu sapien sagittis, tempus neque eget, commodo eros
-                .col-sm-6.left.topper.height
-                  %a{href: "#"}
-                    %div.text-center{style: "background: url(assets/images/bg-ayo.jpg); background-size: 100% 100%; height: 333px;"}
-                      %h1{style: "padding-top: 50%;"} Ayo Ikutan
-                      .line.pink
-                    .tosca.container-block.text-center
-                      %p.bigger Be part of something awesome
-                .col-sm-12
-                  .bg-purple.container-block.text-center
-                    %h3.white-text Someone like me
-                    .line.pink
-                    %p We're partnering with the MTV EMAs to reach out to you all to help get the conversation going. We want to inspire a generation to ask questions freely and to add their voices to the movement. We want to create a world with better, safer sex. Let's get people talking
-                .col-sm-6.right
-                  .bg-tongue.container-block
-                    %h3 Get Involved
-                    %p 
-                      It's easy to get involved with Someone Like Me and there's loads of ways to do it. Be part of the conversation on Twitter, meet the community on Facebook, watch videos from  
-                      %br
-                      around the world from 
-                      %br
-                      the community
-                    .sprites.more-smaller
-                .col-sm-6.left
-                  .bg-knowledge.container-block
-                    %h5 knowledge
-                    %h3 HIV - What you need to know
-                    .line.white-line
-                    %p HIV (the human immunodeficiency virus of course) is one of the few sexually transmitted infections (STIs) that can be fatal. 
+              .eqheight
+                .sprites.badges.youtube
+                %img.youtube.youtube-video{src: "assets/images/thumb-youtube.jpg", "data-video" => "http://www.youtube.com/embed/2y8APzvLFH4?autoplay=1"}
+            .col-sm-4
+              .white.eqheight
+                .container-block
+                  %h3 Ketika Bertemu Dia
+                  .line.green
+                  %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu sapien sagittis, tempus neque eget, commodo eros
+            .col-sm-4.left.topper.eqheight
+              %div.text-center{style: "background: url(assets/images/bg-ayo.jpg); background-size: 100% 100%; height: 333px;"}
+              .tosca.container-block.text-center
+                %p.bigger Be part of something awesome
+          .row
+            .col-sm-4
+              .white.eqheight
+                .container-block
+                  %h3 Ketika Bertemu Dia
+                  .line.green
+                  %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu sapien sagittis, tempus neque eget, commodo eros
+            .col-sm-4
+              .eqheight
+                %img{src: "assets/images/menurut-kamu-2.jpg"}
+                .sprites.badges.instagram
+            .col-sm-4
+              .eqheight
+                %img.youtube.youtube-video{src: "assets/images/thumb-youtube.jpg", "data-video" => "http://www.youtube.com/embed/2y8APzvLFH4?autoplay=1"}
+                .sprites.badges.youtube
+            .col-sm-4
+              .eqheight
+                %img{src: "assets/images/menurut-kamu-2.jpg"}
+                .sprites.badges.instagram
+            .col-sm-4
+              .eqheight
+                %img.youtube.youtube-video{src: "assets/images/thumb-youtube.jpg", "data-video" => "http://www.youtube.com/embed/2y8APzvLFH4?autoplay=1"}
+                .sprites.badges.youtube
+            .col-sm-4
+              .white.eqheight
+                .container-block
+                  %h3 Ketika Bertemu Dia
+                  .line.green
+                  %p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu sapien sagittis, tempus neque eget, commodo eros
       .footer-section
         .container
           .row
@@ -186,3 +171,19 @@
     %script{:src => "https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"}
     %script{:src => "assets/javascripts/bootstrap.js"}
     %script{:src => "assets/javascripts/durex.js"}
+
+:javascript
+
+  $( document ).ready(function() {
+    if ($(window).width() >= 768) {
+
+      var heights = $(".eqheight").map(function() {
+        return $(this).height();
+      }).get();
+
+      var maxHeight = Math.max.apply(null, heights) -90;
+      $(".eqheight").height(maxHeight);
+      $(".youtube-video").height(maxHeight);
+
+    }
+  });

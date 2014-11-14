@@ -4,6 +4,14 @@
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {  
 
+	#menurut_kamu {
+		.middle-section {
+			.sprites.badges.youtube, .sprites.badges.instagram {
+				left: -1px;
+			}
+		}
+	}
+
 	#pengetahuan {
 		.bg-knowledge-pink, .bg-knowledge-image, .bg-purple, .bg-green  {
 			padding-bottom: 0;
@@ -137,10 +145,51 @@
 			font-size: 17px;
 		}
 	}
+
+	#menurut_kamu {
+		.filter {
+			ul {
+				list-style: none;
+				padding: 0;
+				margin-top: 0px;
+				li {
+					float: left;
+					background: none;
+					margin: 0;
+					margin-top: 5px;
+					&:first-child {
+						padding-bottom: 15px;
+						margin-right: 30px;
+					}
+					a {
+						background: #7208a0;
+						padding: 17px 40px;
+						margin: 2px;
+					}
+				}
+			}
+		}
+	}
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+	#menurut_kamu {
+		.filter {
+			ul {
+				li {
+					a {
+						padding: 17px 50px;
+					}
+				}
+			}
+		}
+		.top-section {
+			h1 {
+				margin-top: 40px;
+			}
+		}
+	}
 	.youtube-height {
 		height: 402px;
 	}  
