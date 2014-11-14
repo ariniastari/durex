@@ -4,6 +4,23 @@
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {  
 
+	#ayo_terlibat {
+		ul.share {
+			display: inline-block;
+			margin-top: 0;
+			li {
+				float: left;
+				margin-right: 20px;
+			}
+		}
+		.bg-purple {
+			padding-bottom: 0px;
+			.container-block {
+				padding-top: 25px;
+			}
+		}
+	}
+
 	#menurut_kamu {
 		.middle-section {
 			.sprites.badges.youtube, .sprites.badges.instagram {
@@ -84,6 +101,19 @@
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
+	#ayo_terlibat {
+		.blok {
+			p {
+				line-height: 30px;
+				font-size: 22px;
+
+				&.follow {
+					margin-top: 50px;
+					font-size: 17px;
+				}
+			}
+		}
+	}
 	#inner {
 		.middle-section {
 			margin-top: -148px;

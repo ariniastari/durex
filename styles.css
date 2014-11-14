@@ -5477,6 +5477,21 @@ button.close {
     background-position: -105px -104px;
     width: 18px;
     height: 16px; }
+  .sprites.big-twitter {
+    background-position: -124px -295px;
+    width: 80px;
+    height: 65px;
+    margin-top: 60%; }
+  .sprites.big-facebook {
+    background-position: -4px -284px;
+    width: 38px;
+    height: 84px;
+    margin-top: 55%; }
+  .sprites.big-youtube {
+    background-position: -54px -292px;
+    width: 57px;
+    height: 68px;
+    margin-top: 60%; }
   .sprites.badges {
     position: absolute; }
     .sprites.badges.youtube {
@@ -5643,6 +5658,9 @@ ul.social-media {
   background-size: 100% 100%; }
 .top-section.menurut-kamu {
   background: url("assets/images/bg-menurut-kamu.jpg");
+  background-size: 100% 100%; }
+.top-section.terlibat {
+  background: url("assets/images/bg-ayo-terlibat.jpg");
   background-size: 100% 100%; }
 
 .header {
@@ -5994,10 +6012,50 @@ ul.file-under {
         color: #fff;
         padding: 5px 12px; }
 
+#ayo_terlibat .bg-purple {
+  padding-top: 0;
+  padding-bottom: 20px; }
+#ayo_terlibat .tagline {
+  margin-top: 45px; }
+  #ayo_terlibat .tagline .line.pink {
+    margin-left: 0; }
+#ayo_terlibat .someone-like-me {
+  margin-top: 127px; }
+#ayo_terlibat .blok p {
+  color: white;
+  line-height: 22px;
+  font-size: 18px; }
+  #ayo_terlibat .blok p.follow {
+    font-family: "proxima_nova_rgbold";
+    margin-top: 50px;
+    font-size: 15px; }
+#ayo_terlibat .blok .container-block {
+  padding: 30px 55px; }
+#ayo_terlibat .blok.twitter {
+  background: url("assets/images/bg-twitter.jpg");
+  background-size: 100% 100%; }
+#ayo_terlibat .blok.facebook {
+  background: url("assets/images/bg-facebook.jpg");
+  background-size: 100% 100%; }
+#ayo_terlibat .blok.youtube {
+  background: url("assets/images/bg-youtube.jpg");
+  background-size: 100% 100%; }
+
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+  #ayo_terlibat ul.share {
+    display: inline-block;
+    margin-top: 0; }
+    #ayo_terlibat ul.share li {
+      float: left;
+      margin-right: 20px; }
+  #ayo_terlibat .bg-purple {
+    padding-bottom: 0px; }
+    #ayo_terlibat .bg-purple .container-block {
+      padding-top: 25px; }
+
   #menurut_kamu .middle-section .sprites.badges.youtube, #menurut_kamu .middle-section .sprites.badges.instagram {
     left: -1px; }
 
@@ -6053,6 +6111,13 @@ ul.file-under {
     margin-top: -90px; } }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  #ayo_terlibat .blok p {
+    line-height: 30px;
+    font-size: 22px; }
+    #ayo_terlibat .blok p.follow {
+      margin-top: 50px;
+      font-size: 17px; }
+
   #inner .middle-section {
     margin-top: -148px; }
   #inner .content p {

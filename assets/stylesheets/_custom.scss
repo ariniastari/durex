@@ -166,6 +166,10 @@ ul.social-media {
 		background: url("assets/images/bg-menurut-kamu.jpg");
 		background-size: 100% 100%;
 	}
+	&.terlibat {
+		background: url("assets/images/bg-ayo-terlibat.jpg");
+		background-size: 100% 100%;
+	}
 }
 
 .header {
@@ -677,6 +681,52 @@ ul.file-under {
 					padding: 5px 12px;
 				}
 			}
+		}
+	}
+}
+
+
+// ayo terlibat
+#ayo_terlibat {
+	.bg-purple {
+		padding-top: 0;
+		padding-bottom: 20px;
+	}
+	.tagline {
+		margin-top: 45px; 
+		.line.pink {
+			margin-left: 0;
+		}
+	}
+	.someone-like-me {
+		margin-top: 127px;
+	}
+	.blok {
+		p {
+			color: white;
+			line-height: 22px;
+			font-size: 18px;
+
+			&.follow {
+				font-family: "proxima_nova_rgbold";
+				margin-top: 50px;
+				font-size: 15px;
+			}
+		}
+		.container-block {
+			padding: 30px 55px;
+		}
+		&.twitter {
+			background: url("assets/images/bg-twitter.jpg");
+			background-size: 100% 100%;
+		}
+		&.facebook {
+			background: url("assets/images/bg-facebook.jpg");
+			background-size: 100% 100%;
+		}
+		&.youtube {
+			background: url("assets/images/bg-youtube.jpg");
+			background-size: 100% 100%;
 		}
 	}
 }
