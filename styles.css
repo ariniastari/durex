@@ -5641,26 +5641,8 @@ ul.social-media {
           border: none;
           padding-left: 0px; }
 
-.top-section.home {
+.top-section {
   background: url("assets/images/header.jpg");
-  background-size: 100% 100%; }
-.top-section.visi {
-  background: url("assets/images/bg-visi.jpg");
-  background-size: 100% 100%; }
-.top-section.inner {
-  background: url("assets/images/bg-inner.jpg");
-  background-size: 100% 100%; }
-.top-section.privacy {
-  background: url("assets/images/bg-privacy.jpg");
-  background-size: 100% 100%; }
-.top-section.pengetahuan {
-  background: url("assets/images/bg-pengetahuan.jpg");
-  background-size: 100% 100%; }
-.top-section.menurut-kamu {
-  background: url("assets/images/bg-menurut-kamu.jpg");
-  background-size: 100% 100%; }
-.top-section.terlibat {
-  background: url("assets/images/bg-ayo-terlibat.jpg");
   background-size: 100% 100%; }
 
 .header {
@@ -5832,15 +5814,17 @@ p.bigger {
   .line.white-line {
     background-color: #ffffff; }
 
+#visi .top-section {
+  background: url("assets/images/bg-visi.jpg");
+  background-size: 100% 100%; }
 #visi .line.green {
   margin: 20px 0; }
 #visi .content .container-block {
   padding-bottom: 25px; }
-
-.visi .tagline {
+#visi .tagline {
   padding-top: 70px;
   padding-bottom: 96px; }
-  .visi .tagline .line.pink {
+  #visi .tagline .line.pink {
     margin-top: 10px;
     margin-left: 0;
     width: 9%; }
@@ -5860,6 +5844,9 @@ ul.share {
   background: url("assets/images/bg-tosca.jpg");
   background-size: 100% 100%; }
 
+#inner .top-section {
+  background: url("assets/images/bg-inner.jpg");
+  background-size: 100% 100%; }
 #inner h1 {
   margin-top: 0; }
 #inner .col-md-8 {
@@ -5914,6 +5901,9 @@ ul.file-under {
       font-family: "proxima_nova_rgbold";
       font-size: 15px; }
 
+#privacy .top-section {
+  background: url("assets/images/bg-privacy.jpg");
+  background-size: 100% 100%; }
 #privacy .tagline {
   padding-top: 50px; }
   #privacy .tagline .line.pink {
@@ -5934,6 +5924,9 @@ ul.file-under {
 #privacy .content .white {
   padding-bottom: 40px; }
 
+#pengetahuan .top-section {
+  background: url("assets/images/bg-pengetahuan.jpg");
+  background-size: 100% 100%; }
 #pengetahuan .someone-like-me {
   margin-top: 71px; }
 #pengetahuan .tagline {
@@ -5965,6 +5958,9 @@ ul.file-under {
   #pengetahuan .bg-purple p {
     font-size: 15px; }
 
+#menurut_kamu .top-section {
+  background: url("assets/images/bg-menurut-kamu.jpg");
+  background-size: 100% 100%; }
 #menurut_kamu .tagline .line.pink {
   margin-left: 0; }
 #menurut_kamu .middle-section img {
@@ -6012,6 +6008,9 @@ ul.file-under {
         color: #fff;
         padding: 5px 12px; }
 
+#ayo_terlibat .top-section {
+  background: url("assets/images/bg-ayo-terlibat.jpg");
+  background-size: 100% 100%; }
 #ayo_terlibat .bg-purple {
   padding-top: 0;
   padding-bottom: 20px; }

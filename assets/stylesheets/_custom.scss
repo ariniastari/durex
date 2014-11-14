@@ -140,36 +140,8 @@ ul.social-media {
 }
 
 .top-section {
-
-	&.home {
-		background: url("assets/images/header.jpg");
-		background-size: 100% 100%;
-	}
-
-	&.visi {
-		background: url("assets/images/bg-visi.jpg");
-		background-size: 100% 100%;
-	}
-	&.inner {
-		background: url("assets/images/bg-inner.jpg");
-		background-size: 100% 100%;
-	}
-	&.privacy {
-		background: url("assets/images/bg-privacy.jpg");
-		background-size: 100% 100%;
-	}
-	&.pengetahuan {
-		background: url("assets/images/bg-pengetahuan.jpg");
-		background-size: 100% 100%;
-	}
-	&.menurut-kamu {
-		background: url("assets/images/bg-menurut-kamu.jpg");
-		background-size: 100% 100%;
-	}
-	&.terlibat {
-		background: url("assets/images/bg-ayo-terlibat.jpg");
-		background-size: 100% 100%;
-	}
+	background: url("assets/images/header.jpg");
+	background-size: 100% 100%;
 }
 
 .header {
@@ -391,6 +363,11 @@ p.bigger {
 // VISI
 
 #visi {
+	.top-section {
+		background: url("assets/images/bg-visi.jpg");
+		background-size: 100% 100%;
+	}
+
 	.line.green {
 		margin: 20px 0;
 	}
@@ -400,9 +377,6 @@ p.bigger {
 			padding-bottom: 25px;
 		}
 	}
-}
-
-.visi {
 	.tagline {
 		padding-top: 70px;
 		padding-bottom: 96px;
@@ -441,6 +415,10 @@ ul {
 	background-size: 100% 100%;
 }
 #inner {
+	.top-section {
+		background: url("assets/images/bg-inner.jpg");
+		background-size: 100% 100%;
+	}
 	h1 {
 		margin-top: 0;
 	}
@@ -522,6 +500,10 @@ ul.file-under {
 // PRIVACY
 
 #privacy {
+	.top-section {
+		background: url("assets/images/bg-privacy.jpg");
+		background-size: 100% 100%;
+	}
 	.tagline {
 		padding-top: 50px;
 		.line.pink {
@@ -558,6 +540,10 @@ ul.file-under {
 // Knowledge 
 
 #pengetahuan {
+	.top-section {
+		background: url("assets/images/bg-pengetahuan.jpg");
+		background-size: 100% 100%;
+	}
 	.someone-like-me {
 		margin-top: 71px;
 	}
@@ -609,6 +595,10 @@ ul.file-under {
 // Menurut Kamu
 
 #menurut_kamu {
+	.top-section {
+		background: url("assets/images/bg-menurut-kamu.jpg");
+		background-size: 100% 100%;
+	}
 	.tagline {
 		.line.pink {
 			margin-left: 0;
@@ -688,6 +678,10 @@ ul.file-under {
 
 // ayo terlibat
 #ayo_terlibat {
+	.top-section {
+		background: url("assets/images/bg-ayo-terlibat.jpg");
+		background-size: 100% 100%;
+	}
 	.bg-purple {
 		padding-top: 0;
 		padding-bottom: 20px;
